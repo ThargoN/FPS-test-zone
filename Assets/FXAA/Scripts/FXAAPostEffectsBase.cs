@@ -75,7 +75,7 @@ public class FXAAPostEffectsBase : MonoBehaviour
 		isSupported = true;
 		supportHDRTextures = SystemInfo.SupportsRenderTextureFormat(RenderTextureFormat.ARGBHalf);
 		
-		if (!SystemInfo.supportsImageEffects || !SystemInfo.supportsRenderTextures) {
+		if (!SystemInfo.supportsImageEffects) {
 			NotSupported ();
 			return false;
 		}		
@@ -129,73 +129,73 @@ public class FXAAPostEffectsBase : MonoBehaviour
 		float x1, x2, y1, y2;
 		
 		RenderTexture.active = dest;
-        bool invertY = true; // source.texelSize.y < 0.0f;
-        // Set up the simple Matrix
-        GL.PushMatrix();
-        GL.LoadOrtho();		
-        
-        for (int i = 0; i < material.passCount; i++)
-        {
-            material.SetPass(i);
-	        
-	        float y1_, y2_;
-	        if (invertY)
-	        {
-	            y1_ = 1.0f; y2_ = 0.0f;
-	        }
-	        else
-	        {
-	            y1_ = 0.0f; y2_ = 1.0f;
-	        }
-	        	        
-	        // left	        
-	        x1 = 0.0f;
-	        x2 = 0.0f + 1.0f/(dest.width*1.0f);
-	        y1 = 0.0f;
-	        y2 = 1.0f;
-	        GL.Begin(GL.QUADS);
-	        
-	        GL.TexCoord2(0.0f, y1_); GL.Vertex3(x1, y1, 0.1f);
-	        GL.TexCoord2(1.0f, y1_); GL.Vertex3(x2, y1, 0.1f);
-	        GL.TexCoord2(1.0f, y2_); GL.Vertex3(x2, y2, 0.1f);
-	        GL.TexCoord2(0.0f, y2_); GL.Vertex3(x1, y2, 0.1f);
+		bool invertY = true; // source.texelSize.y < 0.0f;
+		// Set up the simple Matrix
+		GL.PushMatrix();
+		GL.LoadOrtho();		
+		
+		for (int i = 0; i < material.passCount; i++)
+		{
+			material.SetPass(i);
+			
+			float y1_, y2_;
+			if (invertY)
+			{
+				y1_ = 1.0f; y2_ = 0.0f;
+			}
+			else
+			{
+				y1_ = 0.0f; y2_ = 1.0f;
+			}
+						
+			// left	        
+			x1 = 0.0f;
+			x2 = 0.0f + 1.0f/(dest.width*1.0f);
+			y1 = 0.0f;
+			y2 = 1.0f;
+			GL.Begin(GL.QUADS);
+			
+			GL.TexCoord2(0.0f, y1_); GL.Vertex3(x1, y1, 0.1f);
+			GL.TexCoord2(1.0f, y1_); GL.Vertex3(x2, y1, 0.1f);
+			GL.TexCoord2(1.0f, y2_); GL.Vertex3(x2, y2, 0.1f);
+			GL.TexCoord2(0.0f, y2_); GL.Vertex3(x1, y2, 0.1f);
 	
-	        // right
-	        x1 = 1.0f - 1.0f/(dest.width*1.0f);
-	        x2 = 1.0f;
-	        y1 = 0.0f;
-	        y2 = 1.0f;
+			// right
+			x1 = 1.0f - 1.0f/(dest.width*1.0f);
+			x2 = 1.0f;
+			y1 = 0.0f;
+			y2 = 1.0f;
 
-	        GL.TexCoord2(0.0f, y1_); GL.Vertex3(x1, y1, 0.1f);
-	        GL.TexCoord2(1.0f, y1_); GL.Vertex3(x2, y1, 0.1f);
-	        GL.TexCoord2(1.0f, y2_); GL.Vertex3(x2, y2, 0.1f);
-	        GL.TexCoord2(0.0f, y2_); GL.Vertex3(x1, y2, 0.1f);	        
+			GL.TexCoord2(0.0f, y1_); GL.Vertex3(x1, y1, 0.1f);
+			GL.TexCoord2(1.0f, y1_); GL.Vertex3(x2, y1, 0.1f);
+			GL.TexCoord2(1.0f, y2_); GL.Vertex3(x2, y2, 0.1f);
+			GL.TexCoord2(0.0f, y2_); GL.Vertex3(x1, y2, 0.1f);	        
 	
-	        // top
-	        x1 = 0.0f;
-	        x2 = 1.0f;
-	        y1 = 0.0f;
-	        y2 = 0.0f + 1.0f/(dest.height*1.0f);
+			// top
+			x1 = 0.0f;
+			x2 = 1.0f;
+			y1 = 0.0f;
+			y2 = 0.0f + 1.0f/(dest.height*1.0f);
 
-	        GL.TexCoord2(0.0f, y1_); GL.Vertex3(x1, y1, 0.1f);
-	        GL.TexCoord2(1.0f, y1_); GL.Vertex3(x2, y1, 0.1f);
-	        GL.TexCoord2(1.0f, y2_); GL.Vertex3(x2, y2, 0.1f);
-	        GL.TexCoord2(0.0f, y2_); GL.Vertex3(x1, y2, 0.1f);
-	        
-	        // bottom
-	        x1 = 0.0f;
-	        x2 = 1.0f;
-	        y1 = 1.0f - 1.0f/(dest.height*1.0f);
-	        y2 = 1.0f;
+			GL.TexCoord2(0.0f, y1_); GL.Vertex3(x1, y1, 0.1f);
+			GL.TexCoord2(1.0f, y1_); GL.Vertex3(x2, y1, 0.1f);
+			GL.TexCoord2(1.0f, y2_); GL.Vertex3(x2, y2, 0.1f);
+			GL.TexCoord2(0.0f, y2_); GL.Vertex3(x1, y2, 0.1f);
+			
+			// bottom
+			x1 = 0.0f;
+			x2 = 1.0f;
+			y1 = 1.0f - 1.0f/(dest.height*1.0f);
+			y2 = 1.0f;
 
-	        GL.TexCoord2(0.0f, y1_); GL.Vertex3(x1, y1, 0.1f);
-	        GL.TexCoord2(1.0f, y1_); GL.Vertex3(x2, y1, 0.1f);
-	        GL.TexCoord2(1.0f, y2_); GL.Vertex3(x2, y2, 0.1f);
-	        GL.TexCoord2(0.0f, y2_); GL.Vertex3(x1, y2, 0.1f);	
-	                	              
-	        GL.End();	
-        }	
-        
-        GL.PopMatrix();
+			GL.TexCoord2(0.0f, y1_); GL.Vertex3(x1, y1, 0.1f);
+			GL.TexCoord2(1.0f, y1_); GL.Vertex3(x2, y1, 0.1f);
+			GL.TexCoord2(1.0f, y2_); GL.Vertex3(x2, y2, 0.1f);
+			GL.TexCoord2(0.0f, y2_); GL.Vertex3(x1, y2, 0.1f);	
+									  
+			GL.End();	
+		}	
+		
+		GL.PopMatrix();
 	}
 }
