@@ -19,10 +19,11 @@ public class RT_Camera : MonoBehaviour {
 
 	public void OnEnable() {
 		cachedCamera = GetComponent<Camera>();
-		if(LeadCamera == null) {
+
+		if (LeadCamera == null) {
 			LeadCamera = Camera.main;
 		}
-
+		
 		cachedWidth = LeadCamera.pixelWidth;
 		cachedHeight = LeadCamera.pixelHeight;
 
@@ -50,7 +51,7 @@ public class RT_Camera : MonoBehaviour {
 				cachedCamera.ResetWorldToCameraMatrix();
 				//rt.Create();
 			}
-			//cachedCamera.ResetAspect();
+			
 		}
 	}
 
