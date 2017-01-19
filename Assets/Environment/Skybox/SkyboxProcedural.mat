@@ -10,6 +10,7 @@ Material:
   m_Shader: {fileID: 4800000, guid: f2fb429cd00d1a143b07ef5515165c75, type: 3}
   m_ShaderKeywords: _LIGHTMAPPING_DYNAMIC_LIGHTMAPS _UVSEC_UV1
   m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   m_SavedProperties:
@@ -58,7 +59,7 @@ Material:
     - _DstBlend: 0
     - _EmissionScaleUI: 1
     - _Glossiness: 0
-    - _HdrExposure: 1.3
+    - _HdrExposure: 1
     - _Lightmapping: 1
     - _Mode: 0
     - _OcclusionStrength: 1
@@ -70,7 +71,7 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.054856237, g: 0.058823526, b: 0.04368512, a: 1}
+    - _Color: {r: 0.04368512, g: 0.058823526, b: 0.057570692, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColorUI: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColorWithMapUI: {r: 1, g: 1, b: 1, a: 1}
