@@ -79,4 +79,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-Assets/GUI/GUI RenderTex.renderTexture
+
+# Custom
+Assets/References*

@@ -45,6 +45,15 @@ public class GameController : Singleton<GameController> {
 
 
 	// Public methods //////////////////////////////////////////////////////////////////////////////////////////
+
+	public void ReleaseMousePointer(){
+
+	}
+
+	public void LockMousePointer(){
+
+	}
+	
 	public void QuitApplication() {
 #if UNITY_EDITOR
 		UnityEditor.EditorApplication.isPlaying = false;
