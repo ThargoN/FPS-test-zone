@@ -4,9 +4,12 @@ using System;
 
 public class GameController : Singleton<GameController> {
 
+	public event Action testEvent;
+	public event Action<bool> MouseLockStateChanged;
+
 	// Unity callbacks /////////////////////////////////////////////////////////////////////////////////////////
 	void Start () {
-	
+		testEvent += this.QuitApplication;
 	}
 		
 	void Update() {
@@ -18,19 +21,27 @@ public class GameController : Singleton<GameController> {
 	}
 
 	void OnEnable() {
-		IsNoCursorMode = true;
+		IsCursorLocked = true;
 	}
 
 	void OnDisable() {
-		IsNoCursorMode = false;
+		IsCursorLocked = false;
 	}
 
 
 	// Properties //////////////////////////////////////////////////////////////////////////////////////////////
 	public bool IsCursorLocked {
 		set {
+			bool lastState = !Cursor.visible;
 			Cursor.lockState = value ? CursorLockMode.Locked : CursorLockMode.None;
 			Cursor.visible = !value;
+
+			// If MouseLock state changed, warn others
+			if(lastState != value){
+				if( MouseLockStateChanged != null){
+					MouseLockStateChanged(value);
+				}
+			}
 		}
 		get {
 			return !Cursor.visible;
@@ -38,20 +49,15 @@ public class GameController : Singleton<GameController> {
 		
 	}
 	
-	/// <summary>
-	/// true если мы в режиме убранной мыши
-	/// </summary>
-	public bool IsNoCursorMode { get; set; }
-
-
+	
 	// Public methods //////////////////////////////////////////////////////////////////////////////////////////
 
 	public void ReleaseMousePointer(){
-
+		IsCursorLocked = false;
 	}
 
 	public void LockMousePointer(){
-
+		IsCursorLocked = true;
 	}
 	
 	public void QuitApplication() {
@@ -60,6 +66,12 @@ public class GameController : Singleton<GameController> {
 #else
 		Application.Quit();
 #endif
+	}
+
+
+	// Events
+	protected void OnTest(){
+		testEvent();
 	}
 
 }
