@@ -1,0 +1,1392 @@
+fileFormatVersion: 2
+guid: 30ac51248441b49488be44cfd8c5b37f
+timeCreated: 1485688353
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MGBlue_Checkbox_Disabled
+    21300002: MGB_Radio_Disabled
+    21300004: MyGUI_BlueWhiteSkins_2
+    21300006: MyGUI_BlueWhiteSkins_3
+    21300008: MGB_Button_Disabled
+    21300010: MyGUI_BlueWhiteSkins_5
+    21300012: MyGUI_BlueWhiteSkins_6
+    21300014: MyGUI_BlueWhiteSkins_7
+    21300016: MGB_WindowCaptionEmpty
+    21300018: MyGUI_BlueWhiteSkins_9
+    21300020: MyGUI_BlueWhiteSkins_10
+    21300022: MyGUI_BlueWhiteSkins_11
+    21300024: MGBlue_Checkbox_Normal
+    21300026: MyGUI_BlueWhiteSkins_13
+    21300028: MyGUI_BlueWhiteSkins_14
+    21300030: MGB_Radio_Normal
+    21300032: MyGUI_BlueWhiteSkins_16
+    21300034: MGB_Button_Normal
+    21300036: MyGUI_BlueWhiteSkins_18
+    21300038: MGBlue_Checkbox_Hovered
+    21300040: MGB_Radio_Hovered
+    21300042: MyGUI_BlueWhiteSkins_21
+    21300044: MyGUI_BlueWhiteSkins_22
+    21300046: MyGUI_BlueWhiteSkins_23
+    21300048: MyGUI_BlueWhiteSkins_24
+    21300050: MGB_WindowCaption
+    21300052: MyGUI_BlueWhiteSkins_26
+    21300054: MGBlue_Checkbox_Pressed
+    21300056: MyGUI_BlueWhiteSkins_28
+    21300058: MGB_Button_Hovered
+    21300060: MyGUI_BlueWhiteSkins_30
+    21300062: MyGUI_BlueWhiteSkins_31
+    21300064: MGB_WindowCaptionWButton
+    21300066: MyGUI_BlueWhiteSkins_33
+    21300068: MyGUI_BlueWhiteSkins_34
+    21300070: MGB_Radio_Pressed
+    21300072: MyGUI_BlueWhiteSkins_36
+    21300074: MyGUI_BlueWhiteSkins_37
+    21300076: MGB_Button_Pressed
+    21300078: MyGUI_BlueWhiteSkins_39
+    21300080: MyGUI_BlueWhiteSkins_40
+    21300082: MGBlue_Checkbox_Marked_Disabled
+    21300084: MyGUI_BlueWhiteSkins_42
+    21300086: MGBlue_Checkbox_Mark_Disabled
+    21300088: MGB_Radio_Mark_Disabled
+    21300090: MyGUI_BlueWhiteSkins_45
+    21300092: MyGUI_BlueWhiteSkins_46
+    21300094: MyGUI_BlueWhiteSkins_47
+    21300096: MGBlue_Checkbox_Marked_Normal
+    21300098: MyGUI_BlueWhiteSkins_49
+    21300100: MGBlue_Checkbox_Mark_Normal
+    21300102: MGB_Radio_Mark_Normal
+    21300104: MyGUI_BlueWhiteSkins_52
+    21300106: MGBlue_Checkbox_Marked_Hovered
+    21300108: MyGUI_BlueWhiteSkins_54
+    21300110: MGBlue_Checkbox_Mark_Hovered
+    21300112: MGB_Radio_Mark_Hovered
+    21300114: MyGUI_BlueWhiteSkins_57
+    21300116: MyGUI_BlueWhiteSkins_58
+    21300118: MGBlue_Checkbox_Marked_Pressed
+    21300120: MyGUI_BlueWhiteSkins_60
+    21300122: MGBlue_Checkbox_Mark_Pressed
+    21300124: MGB_Radio_Mark_Pressed
+    21300126: MyGUI_BlueWhiteSkins_63
+    21300128: MyGUI_BlueWhiteSkins_64
+    21300130: MyGUI_BlueWhiteSkins_65
+    21300132: MyGUI_BlueWhiteSkins_66
+    21300134: MGB_DownButton_Disabled
+    21300136: MGB_UpButton_Disabled
+    21300138: MGB_LeftButton_Disabled
+    21300140: MGB_RightButton_Disabled
+    21300142: MyGUI_BlueWhiteSkins_71
+    21300144: MyGUI_BlueWhiteSkins_72
+    21300146: MyGUI_BlueWhiteSkins_73
+    21300148: MyGUI_BlueWhiteSkins_74
+    21300150: MyGUI_BlueWhiteSkins_75
+    21300152: MyGUI_BlueWhiteSkins_76
+    21300154: MGB_DownButton_Normal
+    21300156: MGB_DownButton_Hovered
+    21300158: MGB_UpButton_Hovered
+    21300160: MGB_UpButton_Normal
+    21300162: MGB_LeftButton_Normal
+    21300164: MGB_LeftButton_Hovered
+    21300166: MGB_RightButton_Normal
+    21300168: MGB_RightButton_Hovered
+    21300170: MyGUI_BlueWhiteSkins_85
+    21300172: MyGUI_BlueWhiteSkins_86
+    21300174: MyGUI_BlueWhiteSkins_87
+    21300176: MyGUI_BlueWhiteSkins_88
+    21300178: MyGUI_BlueWhiteSkins_89
+    21300180: MGB_DownButton_Pressed
+    21300182: MGB_UpButton_Pressed
+    21300184: MGB_LeftButton_Pressed
+    21300186: MGB_RightButton_Pressed
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MGBlue_Checkbox_Disabled
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 234
+        width: 22
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGB_Radio_Disabled
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 234
+        width: 22
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_2
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 234
+        width: 22
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_3
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 247
+        width: 14
+        height: 7
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGB_Button_Disabled
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 228
+        width: 29
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 1, y: 3, z: 3, w: 1}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_5
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 228
+        width: 29
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_6
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 228
+        width: 29
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_7
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 233
+        width: 32
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGB_WindowCaptionEmpty
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 222
+        width: 68
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 3, y: 0, z: 5, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_9
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 232
+        width: 23
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_10
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 191
+        width: 70
+        height: 63
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_11
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 239
+        width: 14
+        height: 7
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGBlue_Checkbox_Normal
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 22
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_13
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 210
+        width: 22
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_14
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 231
+        width: 14
+        height: 7
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGB_Radio_Normal
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 210
+        width: 22
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_16
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 225
+        width: 12
+        height: 5
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGB_Button_Normal
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 201
+        width: 29
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 1, y: 3, z: 3, w: 1}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_18
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 209
+        width: 32
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGBlue_Checkbox_Hovered
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 186
+        width: 22
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGB_Radio_Hovered
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 186
+        width: 22
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_21
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 186
+        width: 22
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_22
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 200
+        width: 14
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_23
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 199
+        width: 29
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_24
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 185
+        width: 32
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGB_WindowCaption
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 187
+        width: 61
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 9, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_26
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 187
+        width: 20
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGBlue_Checkbox_Pressed
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 162
+        width: 22
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_28
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 180
+        width: 14
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGB_Button_Hovered
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 174
+        width: 29
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 2, y: 4, z: 4, w: 2}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_30
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 170
+        width: 29
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_31
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 182
+        width: 23
+        height: 18
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGB_WindowCaptionWButton
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 151
+        width: 68
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 7, y: 0, z: 33, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_33
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 164
+        width: 15
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_34
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 124
+        width: 63
+        height: 61
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGB_Radio_Pressed
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 162
+        width: 22
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_36
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 162
+        width: 22
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_37
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 160
+        width: 14
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGB_Button_Pressed
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 147
+        width: 29
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 2, y: 4, z: 4, w: 2}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_39
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 158
+        width: 25
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_40
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 163
+        width: 30
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGBlue_Checkbox_Marked_Disabled
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 138
+        width: 22
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_42
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 138
+        width: 22
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGBlue_Checkbox_Mark_Disabled
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 138
+        width: 22
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGB_Radio_Mark_Disabled
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 138
+        width: 22
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_45
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 142
+        width: 12
+        height: 17
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_46
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 120
+        width: 29
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_47
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 134
+        width: 25
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGBlue_Checkbox_Marked_Normal
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 114
+        width: 22
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_49
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 114
+        width: 22
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGBlue_Checkbox_Mark_Normal
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 114
+        width: 22
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGB_Radio_Mark_Normal
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 114
+        width: 22
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_52
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 92
+        width: 8
+        height: 44
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGBlue_Checkbox_Marked_Hovered
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 22
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_54
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 90
+        width: 22
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGBlue_Checkbox_Mark_Hovered
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 90
+        width: 22
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGB_Radio_Mark_Hovered
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 90
+        width: 22
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_57
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 93
+        width: 29
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_58
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 93
+        width: 29
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGBlue_Checkbox_Marked_Pressed
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66
+        width: 22
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_60
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 66
+        width: 22
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGBlue_Checkbox_Mark_Pressed
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 66
+        width: 22
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGB_Radio_Mark_Pressed
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 66
+        width: 22
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_63
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 79
+        width: 5
+        height: 12
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_64
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 66
+        width: 29
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_65
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 66
+        width: 29
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_66
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 72
+        width: 43
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGB_DownButton_Disabled
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 49
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGB_UpButton_Disabled
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 49
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGB_LeftButton_Disabled
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 49
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGB_RightButton_Disabled
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 49
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_71
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 59
+        width: 19
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_72
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 41
+        width: 27
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_73
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 58
+        width: 43
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_74
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 51
+        width: 9
+        height: 9
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_75
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 51
+        width: 9
+        height: 9
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_76
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 38
+        width: 23
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGB_DownButton_Normal
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 33
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGB_DownButton_Hovered
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 17
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGB_UpButton_Hovered
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 17
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGB_UpButton_Normal
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 33
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGB_LeftButton_Normal
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 33
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGB_LeftButton_Hovered
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 17
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGB_RightButton_Normal
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 33
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGB_RightButton_Hovered
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 17
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_85
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 44
+        width: 20
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_86
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 20
+        height: 27
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_87
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 44
+        width: 43
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_88
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 38
+        width: 9
+        height: 9
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MyGUI_BlueWhiteSkins_89
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 38
+        width: 9
+        height: 9
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGB_DownButton_Pressed
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGB_UpButton_Pressed
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGB_LeftButton_Pressed
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MGB_RightButton_Pressed
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

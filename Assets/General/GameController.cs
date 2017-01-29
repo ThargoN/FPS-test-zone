@@ -28,6 +28,9 @@ public class GameController : Singleton<GameController> {
 		IsCursorLocked = false;
 	}
 
+	void OnApplicationQuit(){
+		
+	}
 
 	// Properties //////////////////////////////////////////////////////////////////////////////////////////////
 	public bool IsCursorLocked {
@@ -58,6 +61,10 @@ public class GameController : Singleton<GameController> {
 
 	public void LockMousePointer(){
 		IsCursorLocked = true;
+	}
+
+	public void ToggleLockMousePointer(){
+		IsCursorLocked = !IsCursorLocked;
 	}
 	
 	public void QuitApplication() {
