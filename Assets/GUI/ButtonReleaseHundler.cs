@@ -16,11 +16,13 @@ public class ButtonReleaseHundler : MonoBehaviour {
 	}
 
 	void OnEnable () {
-		GameController.instance.MouseLockStateChanged += UpdateButtonText;
-	}
+        //GameController.instance.MouseLockStateChanged += UpdateButtonText;
+        GameController.instance.MouseLockStateChanged.AddListener(UpdateButtonText);
+    }
 
 	void OnDisable(){
-		GameController.instance.MouseLockStateChanged -= UpdateButtonText;
+		//GameController.instance.MouseLockStateChanged -= UpdateButtonText;
+		GameController.instance.MouseLockStateChanged.RemoveListener(UpdateButtonText);
 	}
 
     public void UpdateButtonText( bool newState ){

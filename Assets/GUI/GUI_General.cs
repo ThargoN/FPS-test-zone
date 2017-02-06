@@ -10,11 +10,13 @@ public class GUI_General : MonoBehaviour {
 
 	void OnEnable(){
 		m_gameController = GameController.instance;
-		m_gameController.MouseLockStateChanged += OnMouseLockChanged;
-	}
+        //m_gameController.MouseLockStateChanged += OnMouseLockChanged;
+        m_gameController.MouseLockStateChanged.AddListener(OnMouseLockChanged);
+    }
 
 	void OnDisable(){
-		m_gameController.MouseLockStateChanged -= OnMouseLockChanged;
+		//m_gameController.MouseLockStateChanged -= OnMouseLockChanged;
+		m_gameController.MouseLockStateChanged.RemoveListener(OnMouseLockChanged);
 	}
 
     private void OnMouseLockChanged(bool newState){

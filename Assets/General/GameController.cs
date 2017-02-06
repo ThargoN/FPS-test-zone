@@ -1,15 +1,21 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System;
+using UnityEngine.Events;
 
 public class GameController : Singleton<GameController> {
+#region internalClasses
+    [System.Serializable]
+	public class MouseStateChangedEvent : UnityEvent<bool> {
+    }
+#endregion
 
-	public event Action testEvent;
-	public event Action<bool> MouseLockStateChanged;
+    //public event Action<bool> MouseLockStateChanged;
+    public MouseStateChangedEvent MouseLockStateChanged;
 
-	// Unity callbacks /////////////////////////////////////////////////////////////////////////////////////////
-	void Start () {
-		testEvent += this.QuitApplication;
+    // Unity callbacks /////////////////////////////////////////////////////////////////////////////////////////
+    void Start () {
+		
 	}
 		
 	void Update() {
@@ -42,7 +48,7 @@ public class GameController : Singleton<GameController> {
 			// If MouseLock state changed, warn others
 			if(lastState != value){
 				if( MouseLockStateChanged != null){
-					MouseLockStateChanged(value);
+					MouseLockStateChanged.Invoke(value);
 				}
 			}
 		}
@@ -77,8 +83,5 @@ public class GameController : Singleton<GameController> {
 
 
 	// Events
-	protected void OnTest(){
-		testEvent();
-	}
 
 }

@@ -29,8 +29,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
 			m_CameraTargetRot = camera.localRotation;
 
 			m_GameController = GameController.instance;
-			m_GameController.MouseLockStateChanged += OnMouseLockChanged;
-		}
+            //m_GameController.MouseLockStateChanged += OnMouseLockChanged;
+            m_GameController.MouseLockStateChanged.AddListener(OnMouseLockChanged);
+        } 
 
         private void OnMouseLockChanged(bool newState)
         {
