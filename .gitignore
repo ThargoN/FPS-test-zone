@@ -82,9 +82,10 @@ $RECYCLE.BIN/
 
 # Custom
 Assets/References*
+Environment
+Environment/*
 
 # Moved to LFS
 *.psd
 *.fbx
 
-Environment
