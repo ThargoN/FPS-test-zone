@@ -43,6 +43,8 @@
         "**/*.meta":true,
         "**/*.prefab":true,
         "**/*.unity":true,
+        "**/*.exr": true,
+        "**/*.hdr": true,
         "build/":true,
         "Build/":true,
         "Library/":true,
