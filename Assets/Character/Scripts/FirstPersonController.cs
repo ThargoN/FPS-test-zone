@@ -31,6 +31,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 		[Header("- Raycasting -")]
         [SerializeField] private float raycastingDistance = 10f;
 		[SerializeField] private LayerMask raycastingLayerMask = 1 << 10;
+		[SerializeField] private float timeToHoldAdvancedActivate = 2f;
 
         private Camera m_Camera;
 		private bool m_Jump;
@@ -47,6 +48,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
 		private AudioSource m_AudioSource;
         private Vector3 cachedCenterOfViewport = new Vector3(0.5f, 0.5f, 0);
         private FPCharacterInteraction currentFPCI = null;
+		private float timeToAdvancedActivate = 0;
+		private float curTime;
 
         // Use this for initialization
         private void Start()
@@ -71,16 +74,23 @@ namespace UnityStandardAssets.Characters.FirstPerson
             // the jump state needs to read here to make sure it is not missed
             UpdateJump();
 
-            if (m_MouseLook.IsCursorLocked){
-                RaycastForward();
-                if (currentFPCI != null)
-                {
-                    if (Input.GetKeyDown(KeyCode.E))
-                    {
-                        currentFPCI.OnActivate.Invoke();
-                    }
-                }
-            }
+            RaycastForFPCI();
+			if (currentFPCI != null){
+				if (Input.GetKeyUp(KeyCode.E) /*|| (m_MouseLook.IsCursorLocked && Input.GetMouseButtonUp(0))*/ ){
+					if( timeToAdvancedActivate > 0 && timeToAdvancedActivate <= Time.time) {
+						currentFPCI.OnActivateAdvanced.Invoke();
+					}else{
+						currentFPCI.OnActivate.Invoke();
+					}
+					timeToAdvancedActivate = 0;
+				}
+				if(Input.GetKeyDown(KeyCode.E)){
+					timeToAdvancedActivate = Time.time + timeToHoldAdvancedActivate;
+				}
+				curTime = Time.time;
+			}
+
+			//TODO: Update FCPI GUI here
         }
 
         private void UpdateJump(){
@@ -105,27 +115,30 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_PreviouslyGrounded = m_CharacterController.isGrounded;
         }
 
-		private void RaycastForward(){
+		private void RaycastForFPCI(){
             RaycastHit rayHit;
-            Ray ray = m_Camera.ViewportPointToRay(cachedCenterOfViewport);
+            Ray ray = m_MouseLook.IsCursorLocked ? m_Camera.ViewportPointToRay(cachedCenterOfViewport) : m_Camera.ScreenPointToRay(Input.mousePosition);
+
             if( Physics.Raycast( ray, out rayHit, raycastingDistance, raycastingLayerMask ) ){
                 FPCharacterInteraction foundFPCI = rayHit.collider.GetComponent<FPCharacterInteraction>();
                 if( foundFPCI != null ){
-                    if (currentFPCI != null && currentFPCI != foundFPCI){
-                        currentFPCI.OnHover.Invoke(false);
-                    }
+					if( currentFPCI != foundFPCI ){
+						if (currentFPCI != null){
+							currentFPCI.OnHover.Invoke(false);
+						}
 
-                    foundFPCI.OnHover.Invoke(true);
-                    currentFPCI = foundFPCI;
-
-                    return;
+						foundFPCI.OnHover.Invoke(true);
+						currentFPCI = foundFPCI;
+						timeToAdvancedActivate = 0;
+					}
                 }
+			} else {
+				if (currentFPCI != null){
+					currentFPCI.OnHover.Invoke(false);
+					currentFPCI = null;
+					timeToAdvancedActivate = 0;
+				}
 			}
-
-			if (currentFPCI != null){
-				currentFPCI.OnHover.Invoke(false);
-                currentFPCI = null;
-            }
         }
 
         private void PlayLandingSound()

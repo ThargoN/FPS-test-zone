@@ -87,6 +87,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
 		private void InternalLockUpdate()
 		{
+			//TODO: Полностью переписать код блокировки курсора
 			if(Input.GetKeyUp(KeyCode.Escape))
 			{
 				IsCursorLocked = false;

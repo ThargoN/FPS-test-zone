@@ -15,10 +15,17 @@ public class FPCharacterInteraction : MonoBehaviour {
 
 #endregion
 
+    [Header("OnHover")]
+    public string GUITextOnHover;
     public Hovered OnHover;
-
-    public bool CanBeActivated = false;
+    
+    [Header("OnActivate")]
+    public string GUITextOnActivate;
     public Activated OnActivate;
+
+    [Header("OnActivateAdvanced")]
+    public string GUITextOnActivateAdvanced;
+    public Activated OnActivateAdvanced;
 
 	/// <summary>
 	/// This function is called when the behaviour becomes disabled or inactive.
