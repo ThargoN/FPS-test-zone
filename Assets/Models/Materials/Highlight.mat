@@ -8,8 +8,8 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: Highlight
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON
-  m_LightmapFlags: 4
+  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _EMISSION
+  m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_CustomRenderQueue: 3000
   stringTagMap:
@@ -71,5 +71,5 @@ Material:
     - _UVSec: 0
     - _ZWrite: 0
     m_Colors:
-    - _Color: {r: 0, g: 0.8088235, b: 0.105983876, a: 0.322}
-    - _EmissionColor: {r: 0.36275354, g: 0.41911763, b: 0.10477941, a: 1}
+    - _Color: {r: 0.07958478, g: 0.2352941, b: 0.19663522, a: 0.322}
+    - _EmissionColor: {r: 0.03627812, g: 0.44852942, b: 0.20970795, a: 1}
