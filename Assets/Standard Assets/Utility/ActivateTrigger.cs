@@ -91,6 +91,5 @@ namespace UnityStandardAssets.Utility
         {
             DoActivateTrigger();
         }
-        
     }
 }

@@ -1,0 +1,148 @@
+fileFormatVersion: 2
+guid: 988a3f93699fbee4d8b8d5db180da241
+timeCreated: 1487936287
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Container
+    100002: //RootNode
+    100004: Engine
+    100006: Engine.001
+    100008: Engine.002
+    100010: Engine.003
+    100012: Engine.004
+    100014: EnginePH_FL
+    100016: EnginePH_FR
+    100018: EnginePH_RL
+    100020: EnginePH_RR
+    100022: LandingBayDoor_FL
+    100024: LandingBayDoor_FR
+    100026: LandingBayDoor_RL
+    100028: LandingBayDoor_RR
+    100030: LiquidsTanker
+    100032: Reference 2m
+    100034: ShipBody
+    400000: Container
+    400002: //RootNode
+    400004: Engine
+    400006: Engine.001
+    400008: Engine.002
+    400010: Engine.003
+    400012: Engine.004
+    400014: EnginePH_FL
+    400016: EnginePH_FR
+    400018: EnginePH_RL
+    400020: EnginePH_RR
+    400022: LandingBayDoor_FL
+    400024: LandingBayDoor_FR
+    400026: LandingBayDoor_RL
+    400028: LandingBayDoor_RR
+    400030: LiquidsTanker
+    400032: Reference 2m
+    400034: ShipBody
+    2300000: Container
+    2300002: Engine
+    2300004: Engine.001
+    2300006: Engine.002
+    2300008: Engine.003
+    2300010: Engine.004
+    2300012: LandingBayDoor_FL
+    2300014: LandingBayDoor_FR
+    2300016: LandingBayDoor_RL
+    2300018: LandingBayDoor_RR
+    2300020: LiquidsTanker
+    2300022: Reference 2m
+    2300024: ShipBody
+    3300000: Container
+    3300002: Engine
+    3300004: Engine.001
+    3300006: Engine.002
+    3300008: Engine.003
+    3300010: Engine.004
+    3300012: LandingBayDoor_FL
+    3300014: LandingBayDoor_FR
+    3300016: LandingBayDoor_RL
+    3300018: LandingBayDoor_RR
+    3300020: LiquidsTanker
+    3300022: Reference 2m
+    3300024: ShipBody
+    4300000: Engine.004
+    4300002: Reference 2m
+    4300004: LiquidsTanker
+    4300006: ShipBody
+    4300008: LandingBayDoor_RL
+    4300010: LandingBayDoor_RR
+    4300012: LandingBayDoor_FR
+    4300014: LandingBayDoor_FL
+    4300016: Container
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
